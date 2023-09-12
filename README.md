@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshots/desktop%201.png)
-![](./screenshots/desktop%202.png)
+![](./design/desktop-design.jpg)
+
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/aygunsalimova/news-homepage-main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -46,7 +46,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Aygun Salimova](https://)
+- Website - [Aygun Salimova]()
 - Frontend Mentor - [@aygunsalimova](https://www.frontendmentor.io/profile/aygunsalimova)
 - Linkedin - [@aygunsalimova](https://www.linkedin.com/in/aygunsalimova/)
 
