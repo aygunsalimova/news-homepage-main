@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/aygunsalimova/news-homepage-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://github.com/aygunsalimova/news-homepage-main)
+- Live Site URL: [Live site URL here](https://aygun-news-homepage-main.netlify.app/)
 
 ## My process
 
