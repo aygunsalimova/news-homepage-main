@@ -19,18 +19,17 @@
     font-style: normal;
   }
 
-  * {
-    font-family: 'Inter', sans-serif;
-    padding: 0;
-    margin: 0;
-  }
-
-
 $paragraf: #55535e;
 $button: #f15d51;
 $rightbar: #00001a;
 $orange: #eea556;
 $gray: #c7c4cb;
+
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
 
 .attribution { 
     font-size: 11px; 
@@ -60,7 +59,15 @@ body {
     margin-top: 85px;
     margin-bottom: 55px;
 
+    &-menu {
+        display: none;
+        cursor: pointer;
+        
+    }
+
     &-list {
+
+        
         a {
             margin-left: 40px;
             text-decoration: none;
@@ -206,5 +213,115 @@ body {
             }
 
         }
+    }
+}
+
+
+@media only screen and (max-width: 412px)  {
+    #close {
+        width: 30px;
+        position: absolute;
+        right: 25px;
+    }
+
+    body {
+        margin: 0 15px;
+        max-width: 412px;
+        max-height: 1872px;
+        padding-bottom: 30px;
+    
+        p {
+            font-size: 15px;
+    
+        }
+    }
+
+    .navbar {
+        display: flex;
+        margin: 30px 0;
+
+        &-logo {
+            img {
+            width: 40px;
+            cursor: pointer;
+            }
+        }
+
+        &-menu {
+            display: block;
+        }
+    
+        &-list {
+                width: 250px;
+                position: fixed;
+                top: 0;
+                right: -250px;
+                height: 100%;
+                background-color: #fff;
+                transition: left 0.3s;  
+                padding-top: 25px;
+
+                &-sidebar {
+                   padding-top: 100px;
+                }
+
+            
+            a {
+                display: block;
+                color: black;
+                padding-bottom: 30px;
+            }}
+    }
+    
+    .content {
+        display: block;
+        &-img {
+            width: 382px;
+            height: 300px;
+        }
+    
+        &-middle {
+            display: block;
+            width: 382px;
+            margin-top: 30px;
+    
+    
+            &-h1 {   
+             font-size: 45px;
+             width: 320px;
+            }
+    
+            &-text {
+                width: 400px;
+                padding-left: 0;
+    
+                p {
+                    width: 350px;
+                    margin-top: 30px;
+                }
+    
+                button {
+                    margin: 30px 0 65px;
+    
+                    &:hover {
+                        background-color: $rightbar;
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom-section {
+        display: block;
+
+        &-part {
+            margin-bottom: 30px;
+        }
+    }
+    
+    .attribution {
+        font-size: 16px;
+        width: 250px;
+        margin: 100px auto;
     }
 }

@@ -49,6 +49,10 @@ body p {
   margin-top: 85px;
   margin-bottom: 55px;
 }
+.navbar-menu {
+  display: none;
+  cursor: pointer;
+}
 .navbar-list a {
   margin-left: 40px;
   text-decoration: none;
@@ -164,4 +168,91 @@ body p {
 }
 .bottom-section-part h5:hover {
   color: #f15d51;
+}
+
+@media only screen and (max-width: 412px) {
+  #close {
+    width: 30px;
+    position: absolute;
+    right: 25px;
+  }
+  body {
+    margin: 0 15px;
+    max-width: 412px;
+    max-height: 1872px;
+    padding-bottom: 30px;
+  }
+  body p {
+    font-size: 15px;
+  }
+  .navbar {
+    display: flex;
+    margin: 30px 0;
+  }
+  .navbar-logo img {
+    width: 40px;
+    cursor: pointer;
+  }
+  .navbar-menu {
+    display: block;
+  }
+  .navbar-list {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    height: 100%;
+    background-color: #fff;
+    transition: left 0.3s;
+    padding-top: 25px;
+  }
+  .navbar-list-sidebar {
+    padding-top: 100px;
+  }
+  .navbar-list a {
+    display: block;
+    color: black;
+    padding-bottom: 30px;
+  }
+  .content {
+    display: block;
+  }
+  .content-img {
+    width: 382px;
+    height: 300px;
+  }
+  .content-middle {
+    display: block;
+    width: 382px;
+    margin-top: 30px;
+  }
+  .content-middle-h1 {
+    font-size: 45px;
+    width: 320px;
+  }
+  .content-middle-text {
+    width: 400px;
+    padding-left: 0;
+  }
+  .content-middle-text p {
+    width: 350px;
+    margin-top: 30px;
+  }
+  .content-middle-text button {
+    margin: 30px 0 65px;
+  }
+  .content-middle-text button:hover {
+    background-color: #00001a;
+  }
+  .bottom-section {
+    display: block;
+  }
+  .bottom-section-part {
+    margin-bottom: 30px;
+  }
+  .attribution {
+    font-size: 16px;
+    width: 250px;
+    margin: 100px auto;
+  }
 }/*# sourceMappingURL=style.css.map */

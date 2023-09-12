@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./dist/style.css">
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <title>Frontend Mentor | News homepage</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -21,12 +21,22 @@
     <div class="navbar-logo">
       <img src="./assets/images/logo.svg" alt="logo" />
     </div>
-    <div class="navbar-list">
-      <a href="">Home</a>
-      <a href="">New</a>
-      <a href="">Popular</a>
-      <a href="">Trending</a>
-      <a href="">Categories</a>
+    <div class="navbar-menu" id="menu-toggle">
+      <img src="./assets/images/icon-menu.svg" alt="logo" />
+    </div>
+    <div class="navbar-list" id="sidebar">
+      <div class="navbar-menu" id="menu-toggle">
+        <img src="./assets/images/icon-menu-close.svg" alt="logo" id="close"/>
+      </div>
+      <div class="navbar-list-sidebar">
+        <a href="">Home</a>
+        <a href="">New</a>
+        <a href="">Popular</a>
+        <a href="">Trending</a>
+        <a href="">Categories</a>
+  
+      </div>
+  
     </div>
   </div>
 
@@ -107,6 +117,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/aygunsalimova" target="_blank">Aygun Salimova</a>.
   </div>
+  <script src="./main.js"></script>
 </body>
 
 </html>
